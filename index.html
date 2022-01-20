@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="2" style="width:4*20%">
+        <tr style = "height:40px">
+            <td><input id = 'c' type="button" value="C"/> </td>
+            <td colspan="3"><input type = "text" disabled="disabled" id="textval" value = " "/></td>
+        </tr>
+        <tr style = "height:40px">
+            <td style="width:20%"><input id = '+' type="button" value="+"/></td>
+            <td ><input id = '1' type="button" value="1"/></td>
+            <td><input id = '2' type="button" value="2"/></td>
+            <td><input id = '3' type="button" value="3"/></td>
+        </tr>
+        <tr style = "height:40px">
+            <td><input id = '-' type="button" value="-"/></td>
+            <td style="width:20%"><input id = '4' type="button" value="4"/></td>
+            <td><input id = '5' type="button" value="5"/></td>
+            <td><input id = '6' type="button" value="6"/></td>
+        </tr>
+        <tr style = "height:40px">
+            <td><input id = '*' type="button" value="*"/></td>
+            <td><input id = '7' type="button" value="7"/></td>
+            <td style="width:20%"><input id = '8' type="button" value="8"/></td>
+            <td><input id = '9' type="button" value="9"/></td>
+        </tr>
+        <tr style = "height:40px">
+            <td><input id = '/' type="button" value="/"/></td>
+            <td><input id = '.' type="button" value="."/></td>
+            <td><input id = '0' type="button" value="0"/></td>
+            <td style="width:20%"><input id = '=' type="button" value="="/></td>
+        </tr>
+    </table>
+</body>
+<script src = "calculater.js"></script>
+<style>
+
+   
+    input[type="button"]
+    {
+    border-radius: 15px;
+    background-color:rgb(56, 62, 82);
+    color: white;
+    border-color:black;
+    width:100%;
+    height: 70px;
+    padding-top: 22px;
+    font-size: 30px;
+    box-shadow:0 1px 2px #5e5d5b;
+    text-align: center;
+    }
+
+    input[type ="text"]
+    {
+    border-radius: 10px;
+    text-align: right;
+    background-color:black;
+    color: rgb(30, 255, 0);
+    border-color: white;
+    width:98%;
+    height:70px;
+    font-size: 100%;
+    font-style: oblique;
+    }
+    </style>
+</html>
